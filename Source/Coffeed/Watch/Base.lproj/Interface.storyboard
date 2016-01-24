@@ -11,7 +11,7 @@
                 <controller identifier="Interface" hidesWhenLoading="NO" id="Hi4-kP-e36" customClass="InterfaceController">
                     <items>
                         <label height="19" alignment="center" text="Caffe Luce" textAlignment="center" id="gI1-Yb-mlb">
-                            <fontDescription key="font" type="system" pointSize="18"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="18"/>
                         </label>
                         <group width="1" alignment="left" id="5wL-o5-6zS">
                             <items>
