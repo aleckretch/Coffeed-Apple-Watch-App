@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xlF-Q8-K3H">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface-->
+        <scene sceneID="0Wt-Fs-VLg">
+            <objects>
+                <controller identifier="Interface" hidesWhenLoading="NO" id="xlF-Q8-K3H" customClass="InterfaceController">
+                    <items>
+                        <label height="19" alignment="center" textAlignment="center" id="cJt-a6-vvG">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <group width="1" alignment="left" id="KQd-F9-hgv">
+                            <items>
+                                <label alignment="left" textAlignment="center" id="XpX-yl-Kdv">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" textAlignment="center" id="To2-bf-Jwd">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" spacing="5" id="ERo-OX-ixR">
+                            <items>
+                                <button width="15" height="32" alignment="left" verticalAlignment="center" backgroundImage="btn_prev_cafe" id="tfp-nM-chh">
+                                    <connections>
+                                        <action selector="onTapButtonPrev:" destination="xlF-Q8-K3H" id="e2B-3g-dvA"/>
+                                    </connections>
+                                </button>
+                                <imageView alignment="left" contentMode="scaleAspectFill" id="ODt-1c-sg6"/>
+                                <button width="15" height="32" alignment="right" verticalAlignment="center" backgroundImage="btn_next_cafe" id="YcQ-Zi-7B7">
+                                    <connections>
+                                        <action selector="onTapButtonNext:" destination="xlF-Q8-K3H" id="9Hj-8L-pXv"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="jaA-rZ-fGA">
+                        <items>
+                            <menuItem title="Get address" image="next" id="4Z5-fs-H3o">
+                                <connections>
+                                    <action selector="onTapButtonGetAddress:" destination="xlF-Q8-K3H" id="qAN-SI-QjM"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Ignore cafe" image="ignore" id="LTr-K3-Dts">
+                                <connections>
+                                    <action selector="onTapButtonIgnoreCafe:" destination="xlF-Q8-K3H" id="G0Q-Zd-eXw"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <color key="backgroundColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="btnNext" destination="YcQ-Zi-7B7" id="7uf-GN-cdb"/>
+                        <outlet property="btnPrev" destination="tfp-nM-chh" id="UEQ-sN-mfr"/>
+                        <outlet property="imgCafe" destination="ODt-1c-sg6" id="Z7C-Y2-GnB"/>
+                        <outlet property="lblDistance" destination="To2-bf-Jwd" id="1oj-A0-syJ"/>
+                        <outlet property="lblRating" destination="XpX-yl-Kdv" id="Zva-tn-LGO"/>
+                        <outlet property="lblTitle" destination="cJt-a6-vvG" id="4dG-0k-OaP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="352.5"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hi4-kP-e36">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hi4-kP-e36">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
@@ -44,6 +44,7 @@
                         <outlet property="imgCafe" destination="ynu-7v-jDC" id="owR-2c-EBu"/>
                         <outlet property="lblDistance" destination="tz0-aK-rIz" id="MOd-Th-oCU"/>
                         <outlet property="lblRating" destination="cw7-bz-DD4" id="zqS-Rl-rRT"/>
+                        <outlet property="lblTitle" destination="gI1-Yb-mlb" id="Xzt-Ig-f5H"/>
                     </connections>
                 </controller>
             </objects>

@@ -14,7 +14,80 @@
 		8934ADF01C54DEC2003DD96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8934ADEE1C54DEC2003DD96E /* Main.storyboard */; };
 		8934ADF21C54DEC2003DD96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8934ADF11C54DEC2003DD96E /* Assets.xcassets */; };
 		8934ADF51C54DEC2003DD96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8934ADF31C54DEC2003DD96E /* LaunchScreen.storyboard */; };
+		8934AE021C54DED8003DD96E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE001C54DED8003DD96E /* Interface.storyboard */; };
+		8934AE041C54DED8003DD96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE031C54DED8003DD96E /* Assets.xcassets */; };
+		8934AE0B1C54DED8003DD96E /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8934AE0A1C54DED8003DD96E /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8934AE131C54DED8003DD96E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934AE121C54DED8003DD96E /* InterfaceController.m */; };
+		8934AE161C54DED8003DD96E /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934AE151C54DED8003DD96E /* ExtensionDelegate.m */; };
+		8934AE191C54DED8003DD96E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934AE181C54DED8003DD96E /* NotificationController.m */; };
+		8934AE1B1C54DED8003DD96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE1A1C54DED8003DD96E /* Assets.xcassets */; };
+		8934AE1F1C54DED8003DD96E /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8934ADFE1C54DED8003DD96E /* Watch.app */; };
+		8934AE2B1C54DF10003DD96E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE291C54DF10003DD96E /* Bolts.framework */; };
+		8934AE2C1C54DF11003DD96E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE291C54DF10003DD96E /* Bolts.framework */; };
+		8934AE2D1C54DF11003DD96E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE2A1C54DF10003DD96E /* Parse.framework */; };
+		8934AE2E1C54DF11003DD96E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE2A1C54DF10003DD96E /* Parse.framework */; };
+		8934AE301C54DF96003DD96E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE2F1C54DF96003DD96E /* libsqlite3.tbd */; };
+		8934AE3B1C54E00C003DD96E /* btn_next_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE321C54E00C003DD96E /* btn_next_cafe.png */; };
+		8934AE3C1C54E00C003DD96E /* btn_next_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE321C54E00C003DD96E /* btn_next_cafe.png */; };
+		8934AE3D1C54E00C003DD96E /* btn_next_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE331C54E00C003DD96E /* btn_next_cafe@2x.png */; };
+		8934AE3E1C54E00C003DD96E /* btn_next_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE331C54E00C003DD96E /* btn_next_cafe@2x.png */; };
+		8934AE3F1C54E00C003DD96E /* btn_prev_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE341C54E00C003DD96E /* btn_prev_cafe.png */; };
+		8934AE401C54E00C003DD96E /* btn_prev_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE341C54E00C003DD96E /* btn_prev_cafe.png */; };
+		8934AE411C54E00C003DD96E /* btn_prev_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE351C54E00C003DD96E /* btn_prev_cafe@2x.png */; };
+		8934AE421C54E00C003DD96E /* btn_prev_cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE351C54E00C003DD96E /* btn_prev_cafe@2x.png */; };
+		8934AE431C54E00C003DD96E /* dummy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE361C54E00C003DD96E /* dummy.jpg */; };
+		8934AE441C54E00C003DD96E /* dummy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE361C54E00C003DD96E /* dummy.jpg */; };
+		8934AE451C54E00C003DD96E /* ignore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE371C54E00C003DD96E /* ignore@2x.png */; };
+		8934AE461C54E00C003DD96E /* ignore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE371C54E00C003DD96E /* ignore@2x.png */; };
+		8934AE471C54E00C003DD96E /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE381C54E00C003DD96E /* next@2x.png */; };
+		8934AE481C54E00C003DD96E /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE381C54E00C003DD96E /* next@2x.png */; };
+		8934AE491C54E00C003DD96E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE391C54E00C003DD96E /* star.png */; };
+		8934AE4A1C54E00C003DD96E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE391C54E00C003DD96E /* star.png */; };
+		8934AE4B1C54E00C003DD96E /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE3A1C54E00C003DD96E /* star_half.png */; };
+		8934AE4C1C54E00C003DD96E /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE3A1C54E00C003DD96E /* star_half.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8934AE0C1C54DED8003DD96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8934ADD71C54DEC2003DD96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8934AE091C54DED8003DD96E;
+			remoteInfo = "Watch Extension";
+		};
+		8934AE1D1C54DED8003DD96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8934ADD71C54DEC2003DD96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8934ADFD1C54DED8003DD96E;
+			remoteInfo = Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8934AE231C54DED8003DD96E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8934AE0B1C54DED8003DD96E /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934AE271C54DED8003DD96E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8934AE1F1C54DED8003DD96E /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8934ADDF1C54DEC2003DD96E /* Coffeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +102,33 @@
 		8934ADF11C54DEC2003DD96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8934ADF41C54DEC2003DD96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8934ADF61C54DEC2003DD96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8934ADFE1C54DED8003DD96E /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8934AE011C54DED8003DD96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8934AE031C54DED8003DD96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8934AE051C54DED8003DD96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8934AE0A1C54DED8003DD96E /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8934AE101C54DED8003DD96E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8934AE111C54DED8003DD96E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8934AE121C54DED8003DD96E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8934AE141C54DED8003DD96E /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		8934AE151C54DED8003DD96E /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		8934AE171C54DED8003DD96E /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		8934AE181C54DED8003DD96E /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		8934AE1A1C54DED8003DD96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8934AE1C1C54DED8003DD96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8934AE291C54DF10003DD96E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8934AE2A1C54DF10003DD96E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8934AE2F1C54DF96003DD96E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		8934AE321C54E00C003DD96E /* btn_next_cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next_cafe.png; sourceTree = "<group>"; };
+		8934AE331C54E00C003DD96E /* btn_next_cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_cafe@2x.png"; sourceTree = "<group>"; };
+		8934AE341C54E00C003DD96E /* btn_prev_cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_prev_cafe.png; sourceTree = "<group>"; };
+		8934AE351C54E00C003DD96E /* btn_prev_cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_prev_cafe@2x.png"; sourceTree = "<group>"; };
+		8934AE361C54E00C003DD96E /* dummy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dummy.jpg; sourceTree = "<group>"; };
+		8934AE371C54E00C003DD96E /* ignore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ignore@2x.png"; sourceTree = "<group>"; };
+		8934AE381C54E00C003DD96E /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		8934AE391C54E00C003DD96E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8934AE3A1C54E00C003DD96E /* star_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_half.png; sourceTree = "<group>"; };
+		8934AE4D1C54E73F003DD96E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +136,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934AE2D1C54DF11003DD96E /* Parse.framework in Frameworks */,
+				8934AE2B1C54DF10003DD96E /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934AE071C54DED8003DD96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8934AE301C54DF96003DD96E /* libsqlite3.tbd in Frameworks */,
+				8934AE2E1C54DF11003DD96E /* Parse.framework in Frameworks */,
+				8934AE2C1C54DF11003DD96E /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +157,12 @@
 		8934ADD61C54DEC2003DD96E = {
 			isa = PBXGroup;
 			children = (
+				8934AE311C54E00C003DD96E /* Images */,
 				8934ADE11C54DEC2003DD96E /* Coffeed */,
+				8934ADFF1C54DED8003DD96E /* Watch */,
+				8934AE0E1C54DED8003DD96E /* Watch Extension */,
 				8934ADE01C54DEC2003DD96E /* Products */,
+				8934AE281C54DF03003DD96E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				8934ADDF1C54DEC2003DD96E /* Coffeed.app */,
+				8934ADFE1C54DED8003DD96E /* Watch.app */,
+				8934AE0A1C54DED8003DD96E /* Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +202,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8934ADFF1C54DED8003DD96E /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				8934AE001C54DED8003DD96E /* Interface.storyboard */,
+				8934AE031C54DED8003DD96E /* Assets.xcassets */,
+				8934AE051C54DED8003DD96E /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		8934AE0E1C54DED8003DD96E /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8934AE111C54DED8003DD96E /* InterfaceController.h */,
+				8934AE121C54DED8003DD96E /* InterfaceController.m */,
+				8934AE4D1C54E73F003DD96E /* Constants.h */,
+				8934AE141C54DED8003DD96E /* ExtensionDelegate.h */,
+				8934AE151C54DED8003DD96E /* ExtensionDelegate.m */,
+				8934AE171C54DED8003DD96E /* NotificationController.h */,
+				8934AE181C54DED8003DD96E /* NotificationController.m */,
+				8934AE1A1C54DED8003DD96E /* Assets.xcassets */,
+				8934AE1C1C54DED8003DD96E /* Info.plist */,
+				8934AE0F1C54DED8003DD96E /* Supporting Files */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		8934AE0F1C54DED8003DD96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8934AE101C54DED8003DD96E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8934AE281C54DF03003DD96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8934AE2F1C54DF96003DD96E /* libsqlite3.tbd */,
+				8934AE291C54DF10003DD96E /* Bolts.framework */,
+				8934AE2A1C54DF10003DD96E /* Parse.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		8934AE311C54E00C003DD96E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8934AE321C54E00C003DD96E /* btn_next_cafe.png */,
+				8934AE331C54E00C003DD96E /* btn_next_cafe@2x.png */,
+				8934AE341C54E00C003DD96E /* btn_prev_cafe.png */,
+				8934AE351C54E00C003DD96E /* btn_prev_cafe@2x.png */,
+				8934AE361C54E00C003DD96E /* dummy.jpg */,
+				8934AE371C54E00C003DD96E /* ignore@2x.png */,
+				8934AE381C54E00C003DD96E /* next@2x.png */,
+				8934AE391C54E00C003DD96E /* star.png */,
+				8934AE3A1C54E00C003DD96E /* star_half.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,15 +273,51 @@
 				8934ADDB1C54DEC2003DD96E /* Sources */,
 				8934ADDC1C54DEC2003DD96E /* Frameworks */,
 				8934ADDD1C54DEC2003DD96E /* Resources */,
+				8934AE271C54DED8003DD96E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8934AE1E1C54DED8003DD96E /* PBXTargetDependency */,
 			);
 			name = Coffeed;
 			productName = Coffeed;
 			productReference = 8934ADDF1C54DEC2003DD96E /* Coffeed.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8934ADFD1C54DED8003DD96E /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8934AE241C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				8934ADFC1C54DED8003DD96E /* Resources */,
+				8934AE231C54DED8003DD96E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8934AE0D1C54DED8003DD96E /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 8934ADFE1C54DED8003DD96E /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8934AE091C54DED8003DD96E /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8934AE201C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				8934AE061C54DED8003DD96E /* Sources */,
+				8934AE071C54DED8003DD96E /* Frameworks */,
+				8934AE081C54DED8003DD96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 8934AE0A1C54DED8003DD96E /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,6 +329,12 @@
 				ORGANIZATIONNAME = "Alec Kretch";
 				TargetAttributes = {
 					8934ADDE1C54DEC2003DD96E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8934ADFD1C54DED8003DD96E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8934AE091C54DED8003DD96E = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -132,6 +353,8 @@
 			projectRoot = "";
 			targets = (
 				8934ADDE1C54DEC2003DD96E /* Coffeed */,
+				8934ADFD1C54DED8003DD96E /* Watch */,
+				8934AE091C54DED8003DD96E /* Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +364,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934AE3B1C54E00C003DD96E /* btn_next_cafe.png in Resources */,
+				8934AE411C54E00C003DD96E /* btn_prev_cafe@2x.png in Resources */,
+				8934AE451C54E00C003DD96E /* ignore@2x.png in Resources */,
+				8934AE471C54E00C003DD96E /* next@2x.png in Resources */,
 				8934ADF51C54DEC2003DD96E /* LaunchScreen.storyboard in Resources */,
+				8934AE3F1C54E00C003DD96E /* btn_prev_cafe.png in Resources */,
+				8934AE431C54E00C003DD96E /* dummy.jpg in Resources */,
 				8934ADF21C54DEC2003DD96E /* Assets.xcassets in Resources */,
+				8934AE4B1C54E00C003DD96E /* star_half.png in Resources */,
+				8934AE3D1C54E00C003DD96E /* btn_next_cafe@2x.png in Resources */,
+				8934AE491C54E00C003DD96E /* star.png in Resources */,
 				8934ADF01C54DEC2003DD96E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934ADFC1C54DED8003DD96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8934AE041C54DED8003DD96E /* Assets.xcassets in Resources */,
+				8934AE021C54DED8003DD96E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934AE081C54DED8003DD96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8934AE3C1C54E00C003DD96E /* btn_next_cafe.png in Resources */,
+				8934AE461C54E00C003DD96E /* ignore@2x.png in Resources */,
+				8934AE4A1C54E00C003DD96E /* star.png in Resources */,
+				8934AE1B1C54DED8003DD96E /* Assets.xcassets in Resources */,
+				8934AE401C54E00C003DD96E /* btn_prev_cafe.png in Resources */,
+				8934AE3E1C54E00C003DD96E /* btn_next_cafe@2x.png in Resources */,
+				8934AE4C1C54E00C003DD96E /* star_half.png in Resources */,
+				8934AE441C54E00C003DD96E /* dummy.jpg in Resources */,
+				8934AE421C54E00C003DD96E /* btn_prev_cafe@2x.png in Resources */,
+				8934AE481C54E00C003DD96E /* next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +419,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8934AE061C54DED8003DD96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8934AE161C54DED8003DD96E /* ExtensionDelegate.m in Sources */,
+				8934AE131C54DED8003DD96E /* InterfaceController.m in Sources */,
+				8934AE191C54DED8003DD96E /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8934AE0D1C54DED8003DD96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8934AE091C54DED8003DD96E /* Watch Extension */;
+			targetProxy = 8934AE0C1C54DED8003DD96E /* PBXContainerItemProxy */;
+		};
+		8934AE1E1C54DED8003DD96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8934ADFD1C54DED8003DD96E /* Watch */;
+			targetProxy = 8934AE1D1C54DED8003DD96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8934ADEE1C54DEC2003DD96E /* Main.storyboard */ = {
@@ -178,6 +459,14 @@
 				8934ADF41C54DEC2003DD96E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8934AE001C54DED8003DD96E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8934AE011C54DED8003DD96E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -267,6 +556,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Coffeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed;
@@ -278,10 +571,80 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Coffeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8934AE211C54DED8003DD96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		8934AE221C54DED8003DD96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		8934AE251C54DED8003DD96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		8934AE261C54DED8003DD96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleckretch.Coffeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -302,6 +665,22 @@
 			buildConfigurations = (
 				8934ADFA1C54DEC2003DD96E /* Debug */,
 				8934ADFB1C54DEC2003DD96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8934AE201C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8934AE211C54DED8003DD96E /* Debug */,
+				8934AE221C54DED8003DD96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8934AE241C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8934AE251C54DED8003DD96E /* Debug */,
+				8934AE261C54DED8003DD96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

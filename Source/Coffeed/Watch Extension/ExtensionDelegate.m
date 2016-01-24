@@ -12,6 +12,8 @@
 
 - (void)applicationDidFinishLaunching {
     // Perform any final initialization of your application.
+    //[Parse setApplicationId:@"lvt8kDBA88NkZJSAl2mikhHivcWJ9zYmWDBuCWZ3" clientKey:@"P0sil7wGjtdFMXRlZMmilT3XPaW9pPy3ub470muL"];
+    
 }
 
 - (void)applicationDidBecomeActive {
