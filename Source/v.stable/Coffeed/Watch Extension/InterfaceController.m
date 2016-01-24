@@ -82,7 +82,10 @@
     [query setLimit:CAFE_LIMIT];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSArray *arrayIgnoreIds = [defaults arrayForKey:@"ignoreIds"];
-    [query whereKey:@"objectId" notContainedIn:arrayIgnoreIds];
+    if (arrayIgnoreIds.count > 0)
+    {
+        [query whereKey:@"objectId" notContainedIn:arrayIgnoreIds];
+    }
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error && objects.count > 0)
         {

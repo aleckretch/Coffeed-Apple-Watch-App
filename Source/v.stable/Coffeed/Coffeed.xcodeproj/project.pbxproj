@@ -45,6 +45,8 @@
 		8934AE4A1C54E00C003DD96E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE391C54E00C003DD96E /* star.png */; };
 		8934AE4B1C54E00C003DD96E /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE3A1C54E00C003DD96E /* star_half.png */; };
 		8934AE4C1C54E00C003DD96E /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934AE3A1C54E00C003DD96E /* star_half.png */; };
+		8934AE4F1C553334003DD96E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE4E1C553334003DD96E /* CoreLocation.framework */; };
+		8934AE511C55333F003DD96E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8934AE501C55333F003DD96E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,8 @@
 		8934AE391C54E00C003DD96E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		8934AE3A1C54E00C003DD96E /* star_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_half.png; sourceTree = "<group>"; };
 		8934AE4D1C54E73F003DD96E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8934AE4E1C553334003DD96E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		8934AE501C55333F003DD96E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934AE511C55333F003DD96E /* CoreLocation.framework in Frameworks */,
 				8934AE2D1C54DF11003DD96E /* Parse.framework in Frameworks */,
 				8934AE2B1C54DF10003DD96E /* Bolts.framework in Frameworks */,
 			);
@@ -145,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934AE4F1C553334003DD96E /* CoreLocation.framework in Frameworks */,
 				8934AE301C54DF96003DD96E /* libsqlite3.tbd in Frameworks */,
 				8934AE2E1C54DF11003DD96E /* Parse.framework in Frameworks */,
 				8934AE2C1C54DF11003DD96E /* Bolts.framework in Frameworks */,
@@ -240,6 +246,8 @@
 		8934AE281C54DF03003DD96E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8934AE501C55333F003DD96E /* CoreLocation.framework */,
+				8934AE4E1C553334003DD96E /* CoreLocation.framework */,
 				8934AE2F1C54DF96003DD96E /* libsqlite3.tbd */,
 				8934AE291C54DF10003DD96E /* Bolts.framework */,
 				8934AE2A1C54DF10003DD96E /* Parse.framework */,
@@ -667,6 +675,7 @@
 				8934ADFB1C54DEC2003DD96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8934AE201C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +684,7 @@
 				8934AE221C54DED8003DD96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8934AE241C54DED8003DD96E /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -683,6 +693,7 @@
 				8934AE261C54DED8003DD96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
