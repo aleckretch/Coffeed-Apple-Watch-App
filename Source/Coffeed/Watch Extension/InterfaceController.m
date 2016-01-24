@@ -38,6 +38,8 @@
     [self.imgStar3 setImage:imgStar];
     [self.imgStar4 setImage:imgStarHalf];
     [self.imgStar5 setImage:nil];
+    
+    
     // Configure interface objects here.
 }
 
