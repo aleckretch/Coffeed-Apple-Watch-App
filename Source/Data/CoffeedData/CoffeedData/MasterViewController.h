@@ -6,6 +6,7 @@
 //  Copyright © 2016 Alec Kretch. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 
 @class DetailViewController;

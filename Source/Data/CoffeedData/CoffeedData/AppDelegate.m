@@ -22,6 +22,7 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+    [Parse setApplicationId:@"lvt8kDBA88NkZJSAl2mikhHivcWJ9zYmWDBuCWZ3" clientKey:@"P0sil7wGjtdFMXRlZMmilT3XPaW9pPy3ub470muL"];
     return YES;
 }
 
