@@ -10,37 +10,43 @@
             <objects>
                 <controller identifier="Interface" hidesWhenLoading="NO" id="Hi4-kP-e36" customClass="InterfaceController">
                     <items>
+                        <label height="19" alignment="center" text="Caffe Luce" textAlignment="center" id="gI1-Yb-mlb">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </label>
                         <group width="1" alignment="left" id="5wL-o5-6zS">
                             <items>
-                                <label height="15" alignment="left" text="Caffe Luce" id="gI1-Yb-mlb">
+                                <label alignment="left" text="3.5 stars" textAlignment="center" id="cw7-bz-DD4">
                                     <fontDescription key="font" type="system" pointSize="12"/>
                                 </label>
-                                <label height="15" alignment="right" text="0.8 miles" textAlignment="right" id="tz0-aK-rIz">
+                                <label alignment="right" text="0.8 miles" textAlignment="center" id="tz0-aK-rIz">
                                     <fontDescription key="font" type="system" pointSize="12"/>
                                 </label>
                             </items>
                         </group>
-                        <imageView height="90" alignment="left" contentMode="scaleAspectFill" id="ynu-7v-jDC"/>
-                        <group width="1" alignment="left" id="zzf-9W-JTe">
+                        <group alignment="left" id="zzf-9W-JTe">
                             <items>
-                                <button height="15" alignment="left" title="Prev" id="eIb-oX-FOg"/>
-                                <button height="15" alignment="right" title="Next" id="Xbn-Ia-pNW"/>
+                                <button width="20" height="32" alignment="left" verticalAlignment="center" backgroundImage="btn_prev_cafe" id="eIb-oX-FOg"/>
+                                <imageView alignment="left" contentMode="scaleAspectFill" id="ynu-7v-jDC"/>
+                                <button width="20" height="32" alignment="right" verticalAlignment="center" backgroundImage="btn_next_cafe" id="Xbn-Ia-pNW"/>
                             </items>
                         </group>
                     </items>
                     <menu key="menu" id="bjm-o1-3zn">
                         <items>
                             <menuItem title="Direct me!" image="next" id="60o-uG-s18"/>
+                            <menuItem title="Ignore" image="ignore" id="d7p-pm-75s"/>
                         </items>
                     </menu>
                     <connections>
                         <outlet property="btnNext" destination="Xbn-Ia-pNW" id="F7x-nk-etv"/>
                         <outlet property="btnPrev" destination="eIb-oX-FOg" id="fhp-Ym-oQP"/>
                         <outlet property="imgCafe" destination="ynu-7v-jDC" id="owR-2c-EBu"/>
+                        <outlet property="lblDistance" destination="tz0-aK-rIz" id="MOd-Th-oCU"/>
+                        <outlet property="lblRating" destination="cw7-bz-DD4" id="zqS-Rl-rRT"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="245" y="353"/>
+            <point key="canvasLocation" x="245" y="352.5"/>
         </scene>
     </scenes>
 </document>
