@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hi4-kP-e36">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface-->
+        <scene sceneID="FmZ-gJ-PHr">
+            <objects>
+                <controller identifier="Interface" hidesWhenLoading="NO" id="Hi4-kP-e36" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="5wL-o5-6zS">
+                            <items>
+                                <label height="15" alignment="left" text="Caffe Luce" id="gI1-Yb-mlb">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label height="15" alignment="right" text="0.8 miles" textAlignment="right" id="tz0-aK-rIz">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView height="90" alignment="left" contentMode="scaleAspectFill" id="ynu-7v-jDC"/>
+                        <group width="1" alignment="left" id="zzf-9W-JTe">
+                            <items>
+                                <button height="15" alignment="left" title="Prev" id="eIb-oX-FOg"/>
+                                <button height="15" alignment="right" title="Next" id="Xbn-Ia-pNW"/>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="bjm-o1-3zn">
+                        <items>
+                            <menuItem title="Direct me!" image="next" id="60o-uG-s18"/>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="btnNext" destination="Xbn-Ia-pNW" id="F7x-nk-etv"/>
+                        <outlet property="btnPrev" destination="eIb-oX-FOg" id="fhp-Ym-oQP"/>
+                        <outlet property="imgCafe" destination="ynu-7v-jDC" id="owR-2c-EBu"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="353"/>
+        </scene>
+    </scenes>
+</document>
