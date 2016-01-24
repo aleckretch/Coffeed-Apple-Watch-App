@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hi4-kP-e36">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hi4-kP-e36">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
@@ -11,23 +11,23 @@
                 <controller identifier="Interface" hidesWhenLoading="NO" id="Hi4-kP-e36" customClass="InterfaceController">
                     <items>
                         <label height="19" alignment="center" text="Caffe Luce" textAlignment="center" id="gI1-Yb-mlb">
-                            <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
                         </label>
                         <group width="1" alignment="left" id="5wL-o5-6zS">
                             <items>
                                 <label alignment="left" text="3.5 stars" textAlignment="center" id="cw7-bz-DD4">
-                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
                                 </label>
                                 <label alignment="right" text="0.8 miles" textAlignment="center" id="tz0-aK-rIz">
-                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
                                 </label>
                             </items>
                         </group>
-                        <group alignment="left" id="zzf-9W-JTe">
+                        <group alignment="left" spacing="5" id="zzf-9W-JTe">
                             <items>
-                                <button width="20" height="32" alignment="left" verticalAlignment="center" backgroundImage="btn_prev_cafe" id="eIb-oX-FOg"/>
+                                <button width="15" height="32" alignment="left" verticalAlignment="center" backgroundImage="btn_prev_cafe" id="eIb-oX-FOg"/>
                                 <imageView alignment="left" contentMode="scaleAspectFill" id="ynu-7v-jDC"/>
-                                <button width="20" height="32" alignment="right" verticalAlignment="center" backgroundImage="btn_next_cafe" id="Xbn-Ia-pNW"/>
+                                <button width="15" height="32" alignment="right" verticalAlignment="center" backgroundImage="btn_next_cafe" id="Xbn-Ia-pNW"/>
                             </items>
                         </group>
                     </items>
@@ -37,6 +37,7 @@
                             <menuItem title="Ignore" image="ignore" id="d7p-pm-75s"/>
                         </items>
                     </menu>
+                    <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="btnNext" destination="Xbn-Ia-pNW" id="F7x-nk-etv"/>
                         <outlet property="btnPrev" destination="eIb-oX-FOg" id="fhp-Ym-oQP"/>
